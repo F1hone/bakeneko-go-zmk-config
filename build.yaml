@@ -18,9 +18,9 @@
 #
 ---
 include:
-  - board: bakeneko60_go
-    snippet: studio-rpc-usb-uart
-    cmake-args: -DCONFIG_ZMK_STUDIO=y
-    artifact-name: bakeneko60_go_studio
   - board: seeeduino_xiao_ble
     shield: bakeneko60_dongle prospector_adapter
+    snippet: studio-rpc-usb-uart
+    cmake-args: -DCONFIG_ZMK_STUDIO=y
+  - board: seeeduino_xiao_ble
+    shield: settings_reset
