@@ -11,6 +11,7 @@
 #include <dt-bindings/zmk/matrix_transform.h>
 
 #include "bakeneko60_go-pinctrl.dtsi"
+#include "bakeneko60_go-layouts.dtsi"
 
 / {
     model = "bakeneko60_go";
